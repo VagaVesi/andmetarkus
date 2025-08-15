@@ -22,7 +22,8 @@ PÄEV 1. ÜLESANDED
 
 * Andmete lugemine tekstifailist
 * andmete lugemine Excelist
-* Andmete lugemine REST teenusest  
+* Andmete lugemine REST teenusest
+* Andmete salvestamine lokaalselt (txt, json jt vormingud)  
 * andmete korrastus
 * Andmete visualiseerimise võimalused ja teegid
 ** Dataframes
