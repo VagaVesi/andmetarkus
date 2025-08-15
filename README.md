@@ -22,10 +22,8 @@ PÄEV 1. ÜLESANDED
 
 * Andmete lugemine tekstifailist
 * andmete lugemine Excelist
-* Andmete lugemine REST teenusest
-  
+* Andmete lugemine REST teenusest  
 * andmete korrastus
-
 * Andmete visualiseerimise võimalused ja teegid
 ** Dataframes
 ** Erinevate joonised ja milliseid peavad olema alusandmed
@@ -33,6 +31,7 @@ PÄEV 1. ÜLESANDED
 PÄEV 2. ÜLESANDED
 
 ## PÄEV 3. Seoste analüüs 
+
 * Andmete filtreerimine
 * Andmete grupeerimine
 * Korrrelatsioon analüüs
@@ -40,6 +39,7 @@ PÄEV 2. ÜLESANDED
 PÄEV 3. ÜLESANDED
   
 ## PÄEV 4. Tekstianalüüs 
+
 * Mis on Regex? (Regex101 kasutamine)
 * Teegid nltk, TextBlob
 * Teekide paigaldus ja kasutamine pythonis
