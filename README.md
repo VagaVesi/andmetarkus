@@ -7,7 +7,7 @@ Mooduli õppetöö käigus omandakse teadmised ja oskused kuidas kasutada Python
 ## PÄEV 1. Sissejuhatus Python-isse
 
 * Ülevaade programmeerimiskeelest Python
-* Peamised Pythonbi andmestruktuurid ja nende kasutamine
+* Peamised Python andmestruktuurid ja nende kasutamine
 * Arenduskeskkonna ettevalmistus (VSCode)
 * GIT-ist esimese teegi alla laadimine
 * Python faili loomine ja selle käivitamine
