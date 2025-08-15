@@ -18,7 +18,7 @@ Mooduli õppetöö käigus omandakse teadmised ja oskused kuidas kasutada Python
 PÄEV 1. ÜLESANDED
 
 
-## PÄEV 3. Andmete visualiseerimine
+## PÄEV 2. Andmete visualiseerimine
 
 * Andmete lugemine tekstifailist
 * andmete lugemine Excelist
