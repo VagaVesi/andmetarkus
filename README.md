@@ -1,4 +1,4 @@
-# andmetarkus - Python andeanalüüsi tööriistana 
+# andmetarkus - Python andmeanalüüsi tööriistana 
 
 Mooduli õppetöö käigus omandakse teadmised ja oskused kuidas kasutada Python-i andmete töötlemiseks, visualiseerimiseks ja analüüsiks. 
 
