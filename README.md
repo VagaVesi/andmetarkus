@@ -25,9 +25,8 @@ PÄEV 1. ÜLESANDED
 * Andmete lugemine REST teenusest
 * Andmete salvestamine lokaalselt (txt, json jt vormingud)  
 * andmete korrastus
-* Andmete visualiseerimise võimalused ja teegid
-** Dataframes
-** Erinevate joonised ja milliseid peavad olema alusandmed
+* Andmete visualiseerimise võimalused ja teegid (nt Dataframes)
+* Erinevate jooniste loomine ja alusandmete ettevalmistus
 
 PÄEV 2. ÜLESANDED
 
