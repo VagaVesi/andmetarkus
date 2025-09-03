@@ -18,7 +18,7 @@ Vaatamiseks link https://vagavesi.github.io/andmetarkus/
 - AI jt abivahendite kasutamine koodi kirjutamisel
 
 PÄEV 1. MATERJALID
-[Slaidid]: https://github.com/VagaVesi/andmetarkus/blob/main/day-1/Slaidid%20-%20Vali%20Andmetarkus!%20DAY%201.pdf
+- Slaidid https://github.com/VagaVesi/andmetarkus/blob/main/day-1/Slaidid%20-%20Vali%20Andmetarkus!%20DAY%201.pdf
 
 ## PÄEV 2. Andmete visualiseerimine
 
