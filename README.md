@@ -19,6 +19,8 @@ Vaatamiseks link https://vagavesi.github.io/andmetarkus/
 
 PÄEV 1. MATERJALID
 
+- Slaidid: https://github.com/VagaVesi/andmetarkus/blob/main/day-1/Slaidid%20-%20Vali%20Andmetarkus!%20DAY%201.pdf
+
 ## PÄEV 2. Andmete visualiseerimine
 
 - Andmete lugemine tekstifailist
