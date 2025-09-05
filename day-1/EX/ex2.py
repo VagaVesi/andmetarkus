@@ -56,3 +56,8 @@ popular_boys_names = ("Peeter", "Karl")
 print(popular_boys_names)
 random_data = (1, "tere", 1.75, True, None, [1, 2, 3], (4, 5) )
 print(random_data)
+
+# unpacking
+andmerida = (100, 2000, 4)
+myyk, varad, töötajat = andmerida
+print(f"Minu müük on {myyk}, varad on {varad} ja töötajaid on {töötajat}.")
