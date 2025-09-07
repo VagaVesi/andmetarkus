@@ -14,7 +14,8 @@
 4. Järmine rida VALUES
 5. Edasi eraldi ridadele "customers" elemendid.
 6. Iga andmerea lõppu tuleb lisada koma ja viimase andmerea lõppu semikoolon.
+7. Veendu, et SQL käsk oleks korrektne (sulud jms).
 
-# Funktsioonide täiendamine
+# Funktioonide täiendamine
 1. Mida eelnevast võiks lahendada funktsioonidena?
 
