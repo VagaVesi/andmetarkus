@@ -21,7 +21,7 @@ data_woman = response_woman.json()
 # json dumps muudab väljundi terminalis loetavaks
 # print(json.dumps(data, indent=2, ensure_ascii=False))
 
-values = {'year': [], 'population': [], "women_population": []}
+values = {'year': [], 'population': [], 'women_population': []}
 
 # {"year": ["2021", "2020", "2019", ...], "population": [1331057, 1326535, 1324820, ...]}
 
@@ -36,12 +36,17 @@ for women in data_woman[1]:
 
 df = pd.DataFrame(values)
 
+df = df.sort_values(by='year')  # sorteerin aasta järgi kasvavalt
+
+df['men_population'] = df['population'] - df['women_population']
+
 # väljastan esimesed read
 print(df.head())
 
 # joonistamise osa
-df.plot(x='year', y=['population', 'women_population'], kind='line', marker='o',
+df.plot(x='year', y=['population', 'women_population', 'men_population'], kind='line',
         title='Eesti rahvaarv aastatel 1960-2021', xlabel='Aasta', ylabel='Inimeste arv')
+plt.ylim(bottom=0)  # y telje algus
 
 plt.show()
 
