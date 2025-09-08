@@ -28,3 +28,13 @@ for row in data_from_csv[1:-1]:
 # seega eraldi käsitlus
 insert_statement += f"\n({','.join(data_from_csv[-1])});"
 print(insert_statement)
+
+
+# oodatav tulemmus
+# INSERT INTO customers
+# (CustomerID,CustomerName,Industry,Country,RegionID)
+# VALUES
+# (C001,Alice Ltd,Retail,USA,R01),
+# (C002,Bob Inc,Wholesale,Canada,R02),
+# (C003,Charlie LLC,E-commerce,USA,R01),
+# (C004,Delta Group,Retail,UK,R03);
