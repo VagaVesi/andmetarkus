@@ -10,7 +10,7 @@
 
 1. Salvesta järjend "customers" andmed faili insert_customers.sql järgnevalt
 2. Faili esimene rida on "INSERT INTO customers"
-3. Faili teine rida on "VALUES {"customers" loendi esimene element}"
+3. Faili teine rida on sulgudes veergude nimed ("customers" loendi esimene element)"
 4. Järmine rida VALUES
 5. Edasi eraldi ridadele "customers" elemendid.
 6. Iga andmerea lõppu tuleb lisada koma ja viimase andmerea lõppu semikoolon.
