@@ -1,0 +1,5 @@
+1. Esimene rida
+2. Teine rida ööööö
+3. Kolmas rida
+Logifailis on 3 rida.
+Logifailis on 4 rida.
