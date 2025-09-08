@@ -48,6 +48,10 @@ df.plot(x='year', y=['population', 'women_population', 'men_population'], kind='
         title='Eesti rahvaarv aastatel 1960-2021', xlabel='Aasta', ylabel='Inimeste arv')
 plt.ylim(bottom=0)  # y telje algus
 
+plt.savefig("output/population_plot.png")
+
+# windows
+# plt.savefig(r"output\population_plot.png")
 plt.show()
 
 
