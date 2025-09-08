@@ -29,13 +29,13 @@ for item in data[1]:
 df = pd.DataFrame(values)
 
 # väljastan esimesed read
-print(df.head())
+# print(df.head())
 
+# joonistamise osa
+df.plot(x='year', y='population', kind='line', marker='o',
+        title='Eesti rahvaarv aastatel 1960-2021', xlabel='Aasta', ylabel='Inimeste arv')
 
-# df.plot(x='year', y='population', kind='line', marker='o',
-#         title='Eesti rahvaarv aastatel 1960-2021', xlabel='Aasta', ylabel='Inimeste arv')
-
-# plt.show()
+plt.show()
 
 # print(df)
 
