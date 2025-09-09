@@ -114,3 +114,17 @@ Näide:
 - [x] Lisain Markdown tabeli
 - [x] Lisain lingi juhendile
 - [ ] Proovin ülesannete loendit ise täiendada
+
+## Värviline versioon
+
+```html
+<ul>
+  <li><span style="color:green">[x] Tehtud ülesanne</span></li>
+  <li><span style="color:red">[ ] Tegemata ülesanne</span></li>
+</ul>
+```
+
+<ul>
+  <li><span style="color:green">[x] Tehtud ülesanne</span></li>
+  <li><span style="color:red">[ ] Tegemata ülesanne</span></li>
+</ul>
