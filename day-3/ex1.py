@@ -59,12 +59,37 @@ def load_or_fetch_data(start: str, end: str, filename: str) -> dict:
 # data = get_price("2025-01-01T00:00:01.999Z", "2025-06-30T23:59:59.999Z")
 # save_json(data, "elering_price.json")
 
+# Teeme For tsükliga kolme aasta, kuu, päeva
+# andmed
+# for year in range(2023, 2026):
+#     for month in range(1, 13):
+#         for day in range(1, 29):
+#             start = f"{year}-{month:02d}-{day:02d}T00:00:01.999Z"
+#             end = f"{year}-{month:02d}-{day:02d}T23:59:59.999Z"
+#             data = get_price(start, end)
+#         save_json(data, f"elering_price_{year}_{month:02d}.json")
 
-start = "2025-02-01T00:00:01.999Z"
-end = "2025-02-28T23:59:59.999Z"
+# Võtame kolme aasta, kuu, päeva andmed
+def month_end_date(year: int, month: int) -> int:
+    """Tagasta kuu viimane päev antud aastal ja kuul."""
+    if month == 2:
+        # Liigaasta kontroll
+        if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+            return 29
+        else:
+            return 28
+    elif month in [4, 6, 9, 11]:
+        return 30
+    else:
+        return 31
 
-data = get_price(start, end)
-save_json(data, "elering_price_february_2025.json")
+
+for year in range(2023, 2026):
+    for month in range(1, 13):
+        start = f"{year}-{month:02d}-01T00:00:01.999Z"
+        end = f"{year}-{month:02d}-{month_end_date(year, month)}T23:59:59.999Z"
+        data = get_price(start, end)
+        save_json(data, f"elering_price_{year}_{month:02d}.json")
 
 
 # # Laen andmed failist ja muudan kuupäeva loetavamaks.
