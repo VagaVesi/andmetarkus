@@ -86,10 +86,14 @@ def month_end_date(year: int, month: int) -> int:
 
 for year in range(2023, 2026):
     for month in range(1, 13):
+        if datetime.now().year == year and datetime.now().month - 1 < month:
+            break
         start = f"{year}-{month:02d}-01T00:00:01.999Z"
         end = f"{year}-{month:02d}-{month_end_date(year, month)}T23:59:59.999Z"
         data = get_price(start, end)
         save_json(data, f"elering_price_{year}_{month:02d}.json")
+
+# dataframe joonised
 
 
 # # Laen andmed failist ja muudan kuupäeva loetavamaks.
