@@ -98,3 +98,26 @@ print(toidud["õun"]['mineraalid'][0])
 # Salvestame tulemuse faili
 with open("day-4/toidud.json", "w", encoding="utf-8") as f:
     json.dump(toidud, f, ensure_ascii=False, indent=2)
+
+
+# Otsida välja kõik toidud, mille vitamiinide hulgas on vähemalt kaks B vitamiini ja lisa need uude sõnastikku "b_vitamini_rikkad"
+
+vitamiinide_rikkad = []
+
+for k, v in toidud.items():
+    b_vitamiinide_arv = sum(
+        1 for vit in v["vitamiinid"] if vit.startswith("B"))
+    if b_vitamiinide_arv >= 2:
+        vitamiinide_rikkad.append(k)
+
+print("B vitamiini rikkad toidud:", vitamiinide_rikkad)
+
+vitamiinide_rikkad_2 = []
+
+for k, v in toidud.items():
+    b_vitamiinide_arv = len(
+        [vit for vit in v["vitamiinid"] if vit.startswith("B")])
+    if b_vitamiinide_arv >= 2:
+        vitamiinide_rikkad_2.append(k)
+
+print("lahendus 2 B vitamiini rikkad toidud:", vitamiinide_rikkad_2)
