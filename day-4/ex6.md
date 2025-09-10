@@ -134,9 +134,11 @@ ilmaandmed = {
 
 linnad_andmed = {
     "linn": ["Tallinn", "Tartu", "Pärnu", "Narva", "Kuressaare"],
-    "elanike_arv": [440000, 95000, 51000, 57000],
+    "elanike_arv": [440000, 95000, 51000, 57000, None],
     "pindala": [159.2, 38.8, 32.2, 84.5, 15.0]  # km²
 }
+
+# Kuressaare elanike arv on 19000
 ```
 
 - [ ] Leia, millises linnas on kõrgeim temperatuur.
