@@ -8,10 +8,7 @@ link = "https://www.reisiekspert.ee/et/reiside-eripakkumised/55-egiptus"
 response = requests.get(link)
 soup = BeautifulSoup(response.text, "html.parser")
 
-
 reisi_kaart = soup.find_all("div", class_="card-body")
-# hinnad = soup.find_all("span", class_="promohind_realopus")
-# reisinimed = soup.find_all("span", class_="promohind_realopus")
 
 reiside_andmed = []
 
