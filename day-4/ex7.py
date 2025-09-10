@@ -13,11 +13,19 @@ reisi_kaart = soup.find_all("div", class_="card-body")
 # hinnad = soup.find_all("span", class_="promohind_realopus")
 # reisinimed = soup.find_all("span", class_="promohind_realopus")
 
+reiside_andmed = []
+
 for reis in reisi_kaart:
     reisi_nimi = reis.find("h2").text.strip()
-    hind_span = reis.find("span", class_="promohind_realopus")
-    if hind_span is None:
+    reisi_hind = reis.find("span", class_="promohind_realopus")
+    if reisi_hind is None:
         continue
-    reisi_hind = hind_span.text.strip().replace("€", "")
+    # võtame väärtuse tekstiväljalt ja puhastame liigsest
+    reisi_hind = reisi_hind.text.strip().replace("€", "").replace(
+        "\n                                                            \xa0", "")
+    # pakime kokku tupleks
+    reisi_andmed = reisi_nimi, int(reisi_hind)
 
-    print(f"{reisi_nimi}: {reisi_hind}")
+    reiside_andmed.append(reisi_andmed)
+
+    print(reisi_andmed)
