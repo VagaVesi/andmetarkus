@@ -28,6 +28,10 @@ riigid = ["Eesti", "Austria", "Belgia", "Andorra", "Hispaania", "Soome", "Albaan
 
 ### Näide: sõnastiku võtmete ja väärtuste väljastamine for-tsükliga
 
+    key = riik, value = linn
+    for k, v in dictionary.items
+
+
 ```python
 pealinnad = {
     "Eesti": "Tallinn",
@@ -105,7 +109,7 @@ toidud = {
 **Mida sõnastikuga on vaja teha:**
 - [ ] Otsida välja kõik toidud, mille mineraalide hulgas on "Kaalium", ja väljasta nende nimed terminali.
 - [ ] Lisada lisatunnus  "makro" väärtusega "süsivesikurohke", "rasvane" kui vastav osakaal makrotoitainetest on üle 50%. Muudel juhtudel lisa tekst "mitmekülgne"
-- [ ] Otsida välja kõik toidud, mille vitamiinide hulgas on vähemalt kaks B vitamiini ja lisa need uude sõnastikku "b_vitaamini_rikkad"
+- [ ] Otsida välja kõik toidud, mille vitamiinide hulgas on vähemalt kaks B vitamiini ja lisa need uude sõnastikku "b_vitamini_rikkad"
 
 
 

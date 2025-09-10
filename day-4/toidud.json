@@ -1,0 +1,96 @@
+{
+  "õun": {
+    "kalorsus": 52,
+    "vitamiinid": [
+      "C",
+      "K",
+      "B6"
+    ],
+    "mineraalid": [
+      "Kaalium",
+      "Magneesium"
+    ],
+    "süsivesikud": 14,
+    "rasv": 0.2,
+    "valk": 0.3,
+    "makro": "süsivesikurohke"
+  },
+  "banaan": {
+    "kalorsus": 89,
+    "vitamiinid": [
+      "C",
+      "B6"
+    ],
+    "mineraalid": [
+      "Kaalium",
+      "Magneesium"
+    ],
+    "süsivesikud": 23,
+    "rasv": 0.3,
+    "valk": 1.1,
+    "makro": "süsivesikurohke"
+  },
+  "kanafilee": {
+    "kalorsus": 165,
+    "vitamiinid": [
+      "B3",
+      "B6",
+      "B12"
+    ],
+    "mineraalid": [
+      "Fosfor",
+      "Seleen"
+    ],
+    "süsivesikud": 0,
+    "rasv": 3.6,
+    "valk": 31.0,
+    "makro": "mitmekülgne"
+  },
+  "kartul": {
+    "kalorsus": 77,
+    "vitamiinid": [
+      "C",
+      "B6"
+    ],
+    "mineraalid": [
+      "Kaalium",
+      "Raud"
+    ],
+    "süsivesikud": 17,
+    "rasv": 0.1,
+    "valk": 2.0,
+    "makro": "süsivesikurohke"
+  },
+  "lõhe": {
+    "kalorsus": 208,
+    "vitamiinid": [
+      "D",
+      "B12",
+      "B6"
+    ],
+    "mineraalid": [
+      "Seleen",
+      "Fosfor"
+    ],
+    "süsivesikud": 0,
+    "rasv": 13.0,
+    "valk": 20.0,
+    "makro": "mitmekülgne"
+  },
+  "riis": {
+    "kalorsus": 130,
+    "vitamiinid": [
+      "B1",
+      "B3",
+      "B6"
+    ],
+    "mineraalid": [
+      "Magneesium",
+      "Fosfor"
+    ],
+    "süsivesikud": 28,
+    "rasv": 0.3,
+    "valk": 2.7,
+    "makro": "süsivesikurohke"
+  }
+}
